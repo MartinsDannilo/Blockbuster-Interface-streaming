@@ -1,0 +1,188 @@
+:root{
+    --amarelo:#DCBB16;
+    --azul:#172CDC;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #0A2C70, #0539a2,#0d4bc6,#3e65b2);
+    font-family:'Montserrat', Arial , sans-serif;
+    color: white;
+   
+}
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--amarelo);
+    font-family:'Anton', Times; /*utilizei uma fonte do google fontes e a outra uma safe fonte*/
+    font-size:40px;
+}
+
+.search-box{
+    position: absolute;
+    size: 10px,10px;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #353b48;
+    border-radius:40px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    
+
+    
+}
+.search-btn{
+    color: var(--amarelo);
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #353b48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+.search-box:hover > .search-txt{
+    width:140px;
+    padding:0;
+}
+.search-box:hover > .search-btn{
+    background:white;
+}
+header nav a{
+    
+    text-decoration:none;
+    color:white;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#FFF;
+}
+
+/* Friends */
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(../img/friends.jpeg);
+    
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao a{
+    color:white;
+}
+.botao:hover a{
+    color:black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+.container .descricao{
+    width: 60%
+}
+.box-filme{
+    margin-top: 10px;
+    height:100%;
+    width:100%;
+    display: block;
+}
+.filmes{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--amarelo);
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(to right, #0A2C70, #0539a2,#0d4bc6,#3e65b2);
+    width:30;
+    
+}
+
+.series{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--amarelo);
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(to right, #0A2C70, #0539a2,#0d4bc6,#3e65b2);
+    width:30;
+
+}
+.rodape{
+    padding-top:30px;
+    padding-bottom:20px;
+    text-align: center;
+}
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
