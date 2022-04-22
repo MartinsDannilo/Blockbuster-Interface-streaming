@@ -1,4 +1,4 @@
-# Blocbuster-Interface de streaming
+# Blockbuster-Interface de streaming
 Projeto para bootcamp dio..
 Nesse projeto criei um streaming com a cara dos anos 90, da antiga rede de home-videos Blockbuster
 
